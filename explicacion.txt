@@ -1,0 +1,24 @@
+profesor para realizar la conexion y verificar que todo funciona solo debe:
+
+1. npm i     (instalar todo lo necesario)
+
+2. en carpeta ENV/.ENV estan todas la variables reemplazar por sus credenciales de base de datos.
+
+3.copiar el siguiente codigo SQL en una nueva conexion de MYSQL CONNECTIONS.
+
+use login;
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `user` varchar(45) DEFAULT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `rol` varchar(45) DEFAULT NULL,
+  `pass` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+4. nodemon app
+
+5.listo!!
+
+ este login lo hice antes de que se requiriera react en el proyecto y por problemas con rutas de react
+no he podido acabarlo
