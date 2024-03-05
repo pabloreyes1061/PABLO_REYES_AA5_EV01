@@ -21,4 +21,4 @@ CREATE TABLE `users` (
 5.listo!!
 
  este login lo hice antes de que se requiriera react en el proyecto y por problemas con rutas de react
-no he podido acabarlo
+no he podido acabarlo. gracias profesor
